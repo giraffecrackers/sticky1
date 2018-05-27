@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AnimNavBar</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:500">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(window).on('scroll', function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }else{
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</head>
+<body>
+   <div class="wrapper">
+       <nav>
+           <div class="logo">LOGO</div>
+           <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a class="active" href="#">Log In</a></li>
+           </ul>
+       </nav>
+       <section class="sec1"></section>
+       <section class="content">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit harum sunt impedit odio ratione quisquam vel consequuntur maiores, hic provident!</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam soluta voluptas dolore nostrum odio voluptatibus perspiciatis alias repudiandae quisquam officiis cum, eaque dolores reiciendis, dolorum cupiditate porro cumque quos quasi molestiae fuga a. Dolor saepe, id sapiente eius dicta corporis?</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure fugit alias inventore ab accusamus exercitationem aut non! Consectetur temporibus voluptate doloribus rerum vel quaerat velit distinctio deleniti eos, non cupiditate maiores voluptates tenetur laudantium modi praesentium aut, rem aliquam, optio fugit numquam! Voluptatem vero, accusantium dolorum, fugit vel sint consequatur nobis quas nisi, adipisci possimus aspernatur blanditiis accusamus esse ullam.</p>
+       </section>
+       
+       
+   </div>
+    
+</body>
+</html>
